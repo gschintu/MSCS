@@ -1,0 +1,22 @@
+phase_1
+    print (char *) $rsp
+
+phase_2 (read_six_numbers)
+
+
+phase_3
+
+movslq (%rdx, %rax,4), %rax
+
+use the following to find where the jump is happening and get the 0xXX value
+
+%rdx = 0x5555555581b0
+%rax = 0xffffffffffe5a2 
+
+gdb x/1xw 0x5555555581b0+0xffffffffffe5a2
+
+will use notrack jmpq *%rax
+
+0123456789ABCDEF
+maduiersnfotvbyl
+

